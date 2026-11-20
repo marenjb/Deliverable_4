@@ -4,7 +4,7 @@ import math
 class Temperature:
     """Represent a temperature in Celsius (C), Fahrenheit (F) or Kelvin (K)."""
 
-    def __init__(self, value: float, unit: str) -> None:
+    def __init__(self, value: float, unit: str = "C") -> None:
         """Initialises a Temperature object."""
 
         # Checks if the unit is a string and has one of the defined temperature units
