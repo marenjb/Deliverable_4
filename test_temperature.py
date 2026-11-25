@@ -186,5 +186,5 @@ def test_str():
     """Test the readable string representation."""
     temp = Temperature(25, "C")
 
-    assert str(temp) == "25.00 °C"
+    assert str(temp) == "25.00 °C" 
 
